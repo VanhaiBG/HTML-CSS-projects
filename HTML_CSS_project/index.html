@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="bg">
+    <head>
+        <meta charset="UTF-8">
+        <title>Начало</title>
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+    </head>
+    <body>
+        <!--Menu-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Начало</a></li>
+                <li>
+                    <a href="page2.html">За играта</a>
+                </li>
+                <li>
+                    <a href="page3.html">Галерия</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <!--First text-->
+            <div id="marvel">
+                <h3>Marvel Future Fight</h3>
+                Това е игра за потребители със смарт устройсва и версия на Андроид 3.0 и по-нова. Играта се предлага от Netmarble Games и не се препоръчва за лица под 12 годишна възраст, защото включва умерено насилие. Играта има над 50 милиона инсталирания. Има постоянни обновления по-играта, което я прави много интересна и динамична.
+            </div>
+            <!--Images-->
+            <img src="images/menu.png" alt="Изображение" class="img1"/>
+            <img src="images/start.png" alt="Изображение" class="img2"/>
+            <!--Contact form-->
+            <form method="post" action="mailto:vanhai@abv.bg" enctype="text/plain">
+                <h3>Изпрати запитване:</h3>
+                <div>
+                    <label for="name">Име:</label>
+                </div>
+                <input type="text" name="Name" id="name" placeholder="Име…"/>
+                <p></p>
+                	<div>
+                    	<label for="email">Електронна поща:</label>
+                    </div>
+                    <input type="text" name="Email" id="email" placeholder="Поща…"/>
+                <p></p>
+                	<div>
+	                    <label for="text">Съобщение:</label>
+	                </div>
+                    <input type="text" name="Message" id="text" placeholder="Съобщение…"/>
+                <p></p>
+                <div>Желаете ли обратна връзка?</div>
+                <div>
+                    <input type="radio" name="Contact" id="yes" value="Yes"/>
+                    <label for="yes">Да</label>
+                    <input type="radio" name="Contact" id="no" value="No">
+                    <label for="no">Не</label>
+                </div>
+                <p>
+                    Националност:
+                    <select name="Nationality">
+                        <option value="No">Желая да не посочвам</option>
+                        <option value="BG">Българин</option>
+                        <option value="RU">Руснак</option>
+                        <option value="MK">Македонец</option>
+                        <option value="RS">Сърбин</option>
+                        <option value="Other">Друга</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="real">Потвърждавам, че предоставената от мен информация е реална</label>
+                    <input type="checkbox" name="Real" id="real" value="Yes"/>
+                </p>
+                <input type="submit" value="Изпрати">
+                <input type="reset" value="Нулирай">
+            </form>
+        </main>
+        <!--Copyright-->
+        <footer>
+            <div>© Всички права запазени! Дизайн и изображения - <em><u>Vanhai</u>@abv.bg</em>.</div>
+        </footer>
+    </body>
+</html>

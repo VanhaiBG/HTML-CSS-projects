@@ -1,0 +1,162 @@
+html, body, nav, footer, main, ul, ol, li, a, 
+em, u, div, form, select, option, input, 
+label, textarea, img {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: url(../images/background/index.png);
+	background-position: 0px 58px;
+	background-repeat: no-repeat;
+	background-size: 100% 600px;
+}
+/*Values for the three pages*/
+ul>li {
+	display: inline-block;
+	font-family: verdana, sans-serif;
+	font-weight: bold;
+	margin-top: 20px;
+}
+li a {
+	text-decoration: none;
+	color: #008A00;
+	padding: 20px;
+}
+a:hover {
+	color: #fff;
+	background-color: #008A00;
+}
+footer {
+	position: relative;
+	top: 540px;
+	text-align: center;
+	font-family: arial, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+main {
+	margin-top: 85px;
+	margin-left: 5%;
+	font-family: helvetica, sans-serif;
+}
+/*First page - index.html*/
+#marvel {
+	width: 18%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+#marvel, form {
+	border: 2px solid; 
+	position: absolute;
+	text-align: center;
+	height: 460px;
+	background: rgba(255, 255, 255, 0.2);
+}
+form {
+	left: 75%;
+	width: 20%;
+}
+/*Images*/
+.img1, .img2 {
+	left: 30%;
+}
+.img1, .img2 {
+	position: absolute;
+	width: 40%;
+	height: 250px;
+}
+.img1 {
+	top: 92px;
+}
+.img2 {
+	top: 376px;
+}
+/*Second page - page2.html*/
+/*Images*/
+.img_page2, .img2_page2 {
+	position: absolute;
+	width: 35%;
+	height: 200px;
+}
+.img_page2 {
+	top: 68px;
+	left: 1%;
+}
+.img2_page2 {
+	top: 448px;
+	left: 64%;
+}
+#rewards, #arena, #arena2, #hero, #hero2, #villian {
+	position: absolute;
+	padding-right: 1%;
+	padding-left: 1%;
+	background: rgba(255, 255, 255, 0.2);
+}
+#rewards {
+	left: 1%;
+	top: 278px;
+	height: 370px;
+	width: 21.75%;
+}
+#arena {
+	left: 37%;
+	top: 68px;
+	width: 10.5%;
+	height: 210px;
+}
+.width_text {
+	width: 98px;
+}
+#arena2 {
+	left: 25.75%;
+	top: 278px;
+	height: 370px;
+	width: 21.75%;
+}
+#hero {
+	left: 50.5%;
+	top: 68px;
+	width: 21.75%;
+	height: 370px;
+}
+#hero2 {
+	left: 50.5%;
+	top: 438px;
+	height: 210px;
+	width: 10.5%;
+}
+#villian {
+	left: 75.25%;
+	top: 68px;
+	height: 370px;
+	width: 21.75%;
+}
+ol {
+	list-style: none;
+}
+/*Third page - page3.html*/
+.img_page3, .img2_page3, .img3_page3, .img4_page3, 
+.img5_page3, .img6_page3 {
+	position: absolute;
+	width: 30%;
+	height: 200px;
+}
+.img_page3, .img2_page3, .img3_page3{
+	top: 115px;
+}
+.img4_page3, .img5_page3, .img6_page3{
+	top: 405px;
+}
+.img_page3, .img4_page3 {
+	left: 2.5%;
+}
+.img2_page3, .img5_page3 {
+	left: 35%;
+}
+.img3_page3, .img6_page3 {
+	left: 67.5%;
+}
+.page3 {
+	height: 10px;
+}
